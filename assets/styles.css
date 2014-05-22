@@ -1,0 +1,249 @@
+/* Base */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f5f4f1 url('/assets/img/bg.jpg');
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	color: #353535;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 30px 0;
+	font-weight: 200;
+	color: #8ca757;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+h1 small {
+	font-size: 25px;
+	color: #666;
+}
+
+h2 + p {
+	margin-top: -20px;
+}
+
+h3 + p {
+	margin-top: -20px;
+}
+
+h2,h3,h4 {
+	font-size: 30px;
+}
+
+h5,h6 {
+	font-size: 20px;
+}
+
+p {
+	margin: 0 0 20px;
+}
+
+a:link, a:visited {
+	color: #8ca757;
+}
+
+a:hover {
+	color: #7a9347;
+}
+
+ul, ol {
+	margin: 0 0 10px 18px;
+}
+
+ul li, ol li {
+	margin: 0 0 15px;
+}
+
+hr {
+	border: none;
+	height: 18px;
+	width: 114px;
+	background: url('/assets/img/hr.png') center center no-repeat;
+	margin: 20px auto;
+}
+
+small {
+	font-size: 12px;
+}
+
+blockquote {
+	background: white;
+	padding: 10px;
+	margin: 0 0 15px;
+	border-left: solid 4px #d1cbb8;
+	font-style: italic;
+}
+
+blockquote p {
+	margin: 5px 0 10px;
+}
+
+blockquote code {
+	font-style: normal;
+}
+
+code {
+	color: #006699;
+	font-weight: bold;
+	font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+}
+
+/* Layout */
+
+.wrapper {
+	position: relative;
+	width: 620px;
+	margin: 40px auto;
+	padding: 40px;
+	background: white;
+	text-align: center;
+}
+
+.wrapper:before, .wrapper:after {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: -5px;
+	width: 100%;
+	height: 100%;
+	background: #97917e;
+	z-index: -1;
+}
+
+.wrapper:before {
+	top: 10px;
+	left: -10px;
+	background: #514933;
+}
+
+#logo {
+	width: 240px;
+	margin: 0 auto;
+	display: block;
+}
+
+.sandbox {
+	padding: 20px;
+	background: #f8f5f1;
+	text-align: left;
+}
+
+aside {
+	background: white;
+	border: dashed 2px #97917e;
+	padding: 10px 20px;
+	margin: 40px;
+}
+
+aside h3 {
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+aside h6 {
+	margin: 15px 0 5px;
+}
+
+table {
+	width: 100%;
+	font-size: 13px;
+	background: white;
+	margin: 0 0 20px;
+}
+
+table td {
+	border-bottom: solid 1px #d1cbb8;
+	padding: 4px;
+}
+
+table th {
+	background: #8ca757;
+	color: white;
+	padding: 4px;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+/* Global */
+
+a.button {
+	display: inline-block;
+	background: #ccc;
+	outline: solid 2px #ccc;
+	border: solid 2px white;
+	color: white;
+	padding: 10px 15px;
+	margin: 20px 0;
+	text-decoration: none;
+}
+
+.button:hover {
+	background: #bbb;
+	outline-color: #bbb;
+}
+
+.button.prev {
+	float: left;
+	background: #514933;
+	outline-color: #514933;
+}
+
+.button.prev:hover {
+	background: #494331;
+	outline-color: #494331;
+}
+
+.button.next {
+	background: #8ca757;
+	outline: solid 2px #8ca757;
+	float: right;
+}
+
+.button.next:hover {
+	background: #7c9745;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+.copyright-info h4, .copyright-info h5 {
+	margin: 0;
+	line-height: 18px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.copyright-info h4 {
+	font-weight: bold;
+}
+
+.copyright-info {
+	margin: 20px 0 40px;
+}
