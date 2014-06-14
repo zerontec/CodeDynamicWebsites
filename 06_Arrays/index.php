@@ -2,6 +2,10 @@
 	define("TITLE", "Arrays");
 	$my_name	= "Brad Hussey";
 	$lesson_num	= 6;
+	
+	if (isset ($_GET['ref'])) {
+		$ref = $_GET['ref'];
+	}
 ?>
 
 <!DOCTYPE html>
@@ -64,7 +68,18 @@ echo $moustaches[2]; // this will display "Fu Manchu"
 			<a href="final.php" class="button">Check out the final example</a>
 			
 			<div class="navs cf">
+				
+				<!-- Did we come from the Foreach Loop lecture? -->
+				<?php if ($ref) { ?>
+				
+				<a href="/<?php echo $ref; ?>" class="button prev">Back to Foreach Loop</a>
+				
+				<?php } else { ?>
+				
 				<a href="/05_GetYourHandsDirty" class="button prev">Previous Lecture</a>
+				
+				<?php } ?>
+				
 				<a href="/07_AssociativeArrays" class="button next">Next Lecture</a>
 			</div><!-- end navs -->
 			

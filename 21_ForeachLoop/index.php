@@ -20,7 +20,7 @@
 				<img src="/assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Lesson <?php echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
+			<h1>Tutorial <?php echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
 			<hr>
 
 			<div class="sandbox">
@@ -28,7 +28,7 @@
 				
 				<aside>
 					<h6>Need a refresher on arrays?</h6>
-					<p>Head back to the <a href="/06_Arrays" target="_blank">arrays lectures</a> to refresh your memory.</p>
+					<p>Head back to the <a href="/06_Arrays?ref=21_ForeachLoop">arrays lectures</a> to refresh your memory.</p>
 				</aside>
 				
 				<p>The syntax looks like so:</p>

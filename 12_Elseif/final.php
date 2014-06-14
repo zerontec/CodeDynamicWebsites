@@ -1,7 +1,7 @@
 <?php
 	
 	// Constants
-	define("TITLE", "Else");
+	define("TITLE", "Else if");
 	
 	// Custom Variables
 	$my_name	= "Brad Hussey";
@@ -23,7 +23,7 @@
 				<img src="/assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Lesson <? echo $lesson_num; ?>: <small><?php echo TITLE; ?></small></h1>
+			<h1>Tutorial <? echo $lesson_num; ?>: <small><?php echo TITLE; ?></small></h1>
 			<hr>
 			
 			<h2>Final Example</h2>
@@ -36,7 +36,7 @@
          
 				        echo "Bonjour! Vouz parlez Fran&ccedil;ais.";
 
-				    } elseif ($native_language == "Spanish") {
+				    } else if ($native_language == "Spanish") {
 				         
 				        echo "&iexcl;Hola! Usted habla Espa&ntilde;ol.";
 				         

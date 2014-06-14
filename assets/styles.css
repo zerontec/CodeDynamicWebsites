@@ -100,6 +100,10 @@ code {
 	font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
 }
 
+sup {
+	font-size: 0.6em;
+}
+
 /* Layout */
 
 .wrapper {
@@ -178,7 +182,12 @@ table th {
 
 /* Global */
 
-a.button {
+input {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+a.button, input.button {
 	display: inline-block;
 	background: #ccc;
 	outline: solid 2px #ccc;
@@ -187,9 +196,13 @@ a.button {
 	padding: 10px 15px;
 	margin: 20px 0;
 	text-decoration: none;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+	cursor: pointer;
 }
 
-.button:hover {
+.button:hover, input.button:hover {
 	background: #bbb;
 	outline-color: #bbb;
 }
@@ -205,14 +218,24 @@ a.button {
 	outline-color: #494331;
 }
 
-.button.next {
+.button.next, input.button.next {
 	background: #8ca757;
 	outline: solid 2px #8ca757;
 	float: right;
 }
 
-.button.next:hover {
+.button.next:hover, input.button.next:hover {
 	background: #7c9745;
+}
+
+input.button.next {
+	display: block;
+	float: none;
+	width: 100%;
+}
+
+.block {
+	display: block;
 }
 
 .cf:before,
@@ -246,4 +269,154 @@ a.button {
 
 .copyright-info {
 	margin: 20px 0 40px;
+}
+
+/* Final example website */
+
+#final-example .wrapper {
+	width: 800px;
+	padding: 0;
+}
+
+#final-example .content {
+	padding: 20px 50px 50px;
+	text-align: left;
+}
+
+#final-example #nav {
+	margin: -27px 0 0;
+}
+
+#final-example #nav ul {
+	display: inline-block;
+	list-style: none;
+	text-align: left;
+}
+
+#final-example #nav ul li {
+	display: inline-block;
+	text-align: center;
+	margin: 0 10px;
+}
+
+#final-example #nav ul li a {
+	display: block;
+	background: #353535;
+	outline: solid 2px #353535;
+	border: solid 2px white;
+	color: white;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+#final-example #nav ul li a:hover {
+	background: #8ca757;
+	outline: solid 2px #8ca757;
+}
+
+#final-example #philosophy {
+	text-align: center;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+#final-example #footer {
+	font-size: 12px;
+	line-height: 15px;
+	margin: 60px 0 0 0;
+}
+
+#final-example #footer strong {
+	display: block;
+	margin: 0 0 20px;
+}
+
+#final-example .column {
+	display: block;
+	float: left;
+}
+
+#final-example .column.three {
+	width: 203px;
+	margin-right: 45px;
+}
+
+#final-example .column.last {
+	margin: 0;
+}
+
+#final-example small {
+	display: block;
+	text-align: center;
+	margin: 40px 0 0;
+}
+
+#final-example .member {
+	width: 203px;
+	float: left;
+	margin-right: 45px;
+}
+
+#final-example .member:last-child {
+	margin: 0;
+}
+
+#final-example .member img {
+	max-width: 100%;
+}
+
+#menu-items ul {
+	list-style: none;
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 18px;
+}
+
+#menu-items ul li a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.price {
+	float: right;
+	font-size: 18px;
+	font-weight: bold;
+	color: #353535;
+}
+
+#contact {
+	width: 320px;
+	margin: 0 auto;
+}
+
+#contact-form label {
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+	border: solid 2px #353535;
+	outline: none;
+	font-size: 18px;
+	padding: 10px;
+	margin: 0 0 10px;
+	width: 300px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+#contact-form textarea {
+	resize: vertical;
+	height: 120px;
+}
+
+#contact-form input[type="checkbox"] + label {
+	display: inline;
+	cursor: pointer;
 }

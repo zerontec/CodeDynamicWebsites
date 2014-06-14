@@ -20,7 +20,7 @@
 				<img src="/assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Lesson <!-- LESSON NUMBER -->: <small><!-- TITLE --></small></h1>
+			<h1>Tutorial <!-- LESSON NUMBER -->: <small><!-- TITLE --></small></h1>
 			<hr>
 			
 			<h2>Your Example</h2>
@@ -33,11 +33,6 @@
 				?>
 				
 				<h3>Or <code>or</code></h3>
-				<?php
-					// your code here
-				?>
-				
-				<h3>Xor <code>xor</code></h3>
 				<?php
 					// your code here
 				?>

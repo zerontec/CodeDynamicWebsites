@@ -55,12 +55,14 @@
 <pre class="brush: php">
 &lt;?php
 	
+	// Build the function
 	function hangTen() {
 		
 		echo &quot;Surf's up! Grab your board!&quot;;
 		
 	}
 	
+	// Call the function
 	hangTen();
 	
 ?&gt;

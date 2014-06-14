@@ -1,12 +1,12 @@
 <?php
 	
 	// Constants
-	define("TITLE", "Intro to Functions");
+	define("TITLE", "Simple Arguments");
 	
 	// Custom Variables
 	$myName	= "Brad Hussey";
-	$lessonNum	= 23;
-	
+	$lessonNum	= 25;
+
 ?>
 
 <!DOCTYPE html>
@@ -24,41 +24,39 @@
 			<h1>Tutorial <?php echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
 			<hr>
 			
-			<h2>Your Example</h2>
+			<h2>Final Example</h2>
+			<p>Make sure to view the source code in your editor!</p>	
 			
 			<div class="sandbox">
 				
-				<h3>Using <code>sort()</code></h3>
+				<h3>One Argument</h3>
 				<?php
+					function hangTen($location) {
+	
+						echo "We're surfing in $location!<br>";
+						
+					}
 					
-					// your code here
-					
+					hangTen("Hawaii");
+					hangTen("California");
+					hangTen("Newfoundland");
 				?>
 				
-				<h3>Using <code>rsort()</code></h3>
+				<h3>Two Arguments</h3>
 				<?php
+					function multiplyTogether($val1, $val2) {
+						
+						$product = $val1 * $val2;
+						echo "The product of the two numbers is: $product";
+						
+					}
 					
-					// your code here
-					
-				?>
-				
-				<h3>Using <code>strtolower()</code></h3>
-				<?php
-					
-					// your code here
-					
-				?>
-				
-				<h3>Using <code>sha1()</code></h3>
-				<?php
-					
-					// your code here
-					
+					multiplyTogether(14, 27);
 				?>
 				
 			</div><!-- end sandbox -->
 			
-			<a href="index.php" class="button">Back to the lecture</a>
+			<a href="practice.php" class="button">Check out your example</a>
 			
 			<hr>
 			

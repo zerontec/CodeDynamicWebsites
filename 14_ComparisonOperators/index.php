@@ -20,7 +20,7 @@
 				<img src="/assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Lesson <?php echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
+			<h1>Tutorial <?php echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
 			<hr>
 
 			<div class="sandbox">
@@ -72,7 +72,7 @@ $myName = "Brad";
 							<td align="left" valign="center">Identical</td>
 				
 							<td align="left" valign="center"><code>TRUE</code> if <code>$a</code> is equal to <code>$b</code>,
-							and they are of the same type. (PHP 4 only)</td>
+							and they are of the same type. (PHP 4 only). You're using PHP <strong><?php echo phpversion(); ?></strong>.</td>
 						</tr>
 				
 						<tr>

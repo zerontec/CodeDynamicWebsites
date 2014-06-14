@@ -27,7 +27,7 @@
 				<img src="/assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Lesson <? echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
+			<h1>Tutorial <?php echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
 			<hr>
 			
 			<h2>Final Example</h2>
@@ -43,15 +43,6 @@
 				?>
 				
 				<h3>Or <code>or</code></h3>
-				<?php
-					if ($cartTotal > 15 or $couponCode == "DiscountPlease") {
-						echo "You get a discount!";
-					} else {
-						echo "You don't get a discount!";
-					}
-				?>
-				
-				<h3>Xor <code>xor</code></h3>
 				<?php
 					if ($cartTotal > 15 or $couponCode == "DiscountPlease") {
 						echo "You get a discount!";

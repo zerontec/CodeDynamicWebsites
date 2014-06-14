@@ -1,5 +1,5 @@
 <?php
-	define("TITLE", "Elseif");
+	define("TITLE", "Else if");
 	$my_name	= "Brad Hussey";
 	$lesson_num	= 12;
 ?>
@@ -20,13 +20,13 @@
 				<img src="/assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Lesson <?php echo $lesson_num; ?>: <small><?php echo TITLE; ?></small></h1>
+			<h1>Tutorial <?php echo $lesson_num; ?>: <small><?php echo TITLE; ?></small></h1>
 			<hr>
 
 			<div class="sandbox">
 			
-				<p>There's one last piece in the <code>IF / ELSE</code> puzzle. It's called <code>ELSEIF</code> (pronounced "Else If"). <code>ELSEIF</code> is a kind of combination of <code>IF</code> and <code>ELSE</code>. <a href="http://www.php.net/manual/en/control-structures.elseif.php" target="_blank">PHP.net</a> puts it nicely:</p>
-				<blockquote>Like <code>ELSE</code>, it extends an <code>IF</code> statement to execute a different statement in case the original <code>IF</code> expression evaluates to <code>FALSE</code>. However, unlike <code>ELSE</code>, it will execute that alternative expression only if the <code>ELSEIF</code> conditional expression evaluates to <code>TRUE</code>.</blockquote>
+				<p>There's one last piece in the <code>IF / ELSE</code> puzzle. It's called <code>else if</code> (or <code>elseif</code> &mdash; pronounced "Else If"). <code>ELSE IF</code> is a kind of combination of <code>IF</code> and <code>ELSE</code>. <a href="http://www.php.net/manual/en/control-structures.else if.php" target="_blank">PHP.net</a> puts it nicely:</p>
+				<blockquote>Like <code>ELSE</code>, it extends an <code>IF</code> statement to execute a different statement in case the original <code>IF</code> expression evaluates to <code>FALSE</code>. However, unlike <code>ELSE</code>, it will execute that alternative expression only if the <code>else if</code> conditional expression evaluates to <code>TRUE</code>.</blockquote>
 				
 				<p>If the above explanation is as clear as mud, the syntax looks like this:</p>
 
@@ -35,10 +35,10 @@ if (expression) {
 	
 	// code to execute if the above expression is TRUE
 	
-} elseif (different expression) {
+} else if (different expression) {
 
 	/* code to execute if first expression is FALSE
-	   but the ELSEIF expression is TRUE */
+	   but the else if expression is TRUE */
 
 } else {
 
@@ -59,7 +59,7 @@ if (expression) {
 		
 		echo &quot;Bonjour! Vouz parlez Fran&ccedil;ais.&quot;;
 		
-	} elseif ($native_language == &quot;Spanish&quot;) {
+	} else if ($native_language == &quot;Spanish&quot;) {
 		
 		echo &quot;&iexcl;Hola! Usted habla Espa&ntilde;ol.&quot;;
 		
@@ -85,8 +85,8 @@ if (expression) {
 		// Echo some french!
 		echo &quot;Bonjour! Vouz parlez Fran&ccedil;ais.&quot;;
 		
-	// ELSEIF native language is Spanish	
-	} elseif ($native_language == &quot;Spanish&quot;) {
+	// else if native language is Spanish	
+	} else if ($native_language == &quot;Spanish&quot;) {
 		
 		// Echo some spanish!
 		echo &quot;&iexcl;Hola! Usted habla Espa&ntilde;ol.&quot;;

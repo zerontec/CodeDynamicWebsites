@@ -20,7 +20,7 @@
 				<img src="/assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Lesson <?php echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
+			<h1>Tutorial <?php echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
 			<hr>
 
 			<div class="sandbox">
@@ -52,14 +52,6 @@
 							<td>Or</td>
 				
 							<td><code>TRUE</code> if either <code>$a</code> or <code>$b</code> is <code>TRUE</code>.</td>
-						</tr>
-				
-						<tr>
-							<td><code>$a xor $b</code></td>
-				
-							<td>Xor</td>
-				
-							<td><code>TRUE</code> if either <code>$a</code> or <code>$b</code> is <code>TRUE</code>, but not both.</td>
 						</tr>
 				
 						<tr>

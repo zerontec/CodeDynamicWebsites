@@ -21,7 +21,7 @@
 				<img src="/assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Tutorial <? echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
+			<h1>Tutorial <?php echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
 			<hr>
 			
 			<h2>Final Example</h2>
@@ -55,6 +55,32 @@
 					foreach ($dinner as $ingredient) {
 					    echo "$ingredient <br>";
 					}
+				?>
+				
+				<h3>Using <code>strtolower()</code></h3>
+				<?php
+					
+					// String of text with upper and lowercase characters
+					$text = "Twinkle Twinkle little STAR!";
+					
+					// Run the $text variable through strtolower()
+					// Re-assign the value to the $text variable
+					$text = strtolower($text);
+					
+					// See what you get!
+					echo $text;
+					
+				?>
+				
+				<h3>Using <code>sha1()</code></h3>
+				<?php
+					
+					$password = "MyPassword";
+					echo "Before: $password <br>";
+					
+					$password = sha1($password);
+					echo "After: $password";
+					
 				?>
 				
 			</div><!-- end sandbox -->

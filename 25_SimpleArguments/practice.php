@@ -1,12 +1,12 @@
 <?php
 	
 	// Constants
-	define("TITLE", "Intro to Functions");
+	define("TITLE", "Simple Arguments");
 	
 	// Custom Variables
 	$myName	= "Brad Hussey";
-	$lessonNum	= 23;
-	
+	$lessonNum	= 25;
+
 ?>
 
 <!DOCTYPE html>
@@ -28,32 +28,33 @@
 			
 			<div class="sandbox">
 				
-				<h3>Using <code>sort()</code></h3>
+				<h3>One Argument</h3>
 				<?php
 					
-					// your code here
+					function hangTen($location) {
+						
+						echo "We're surfing in $location!<br>";
+						
+					}
+					
+					hangTen("Hawaii");
+					hangTen("California");
+					hangTen("Newfoundland");
 					
 				?>
 				
-				<h3>Using <code>rsort()</code></h3>
+				<h3>Two Arguments</h3>
 				<?php
-					
-					// your code here
-					
-				?>
 				
-				<h3>Using <code>strtolower()</code></h3>
-				<?php
+					function multiplyTogether($val1, $val2) {
+						
+						$product = $val1 * $val2;
+						echo "The product of the two numbers is: $product";
+						
+					}
 					
-					// your code here
-					
-				?>
+					multiplyTogether(14, 27);
 				
-				<h3>Using <code>sha1()</code></h3>
-				<?php
-					
-					// your code here
-					
 				?>
 				
 			</div><!-- end sandbox -->

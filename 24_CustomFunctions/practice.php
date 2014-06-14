@@ -1,17 +1,18 @@
 <?php
 	
 	// Constants
-
+	define("TITLE", "Custom Functions");
 	
 	// Custom Variables
-
+	$myName	= "Brad Hussey";
+	$lessonNum	= 24;
 
 ?>
 
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>PHP <!-- TITLE --></title>
+		<title>PHP <?php echo TITLE; ?></title>
 		<link href="/assets/styles.css" rel="stylesheet">
 	</head>
 	<body>
@@ -20,21 +21,13 @@
 				<img src="/assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Tutorial <!-- LESSON NUMBER -->: <small><!-- TITLE --></small></h1>
+			<h1>Tutorial <?php echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
 			<hr>
 			
 			<h2>Your Example</h2>
 			
 			<div class="sandbox">
 				
-				<h3>Using <code>sort()</code></h3>
-				<?php
-					
-					// your code here
-					
-				?>
-				
-				<h3>Using <code>rsort()</code></h3>
 				<?php
 					
 					// your code here
@@ -47,7 +40,7 @@
 			
 			<hr>
 			
-			<small>&copy;<!-- YEAR --> - <!-- NAME --></small>
+			<small>&copy;<?php echo date('Y'); ?> - <?php echo $myName; ?></small>
 		</div><!-- end wrapper -->
 		
 		<div class="copyright-info">

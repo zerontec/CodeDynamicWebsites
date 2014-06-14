@@ -24,7 +24,7 @@
 				<img src="/assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Lesson <? echo $lesson_num; ?>: <small><?php echo TITLE; ?></small></h1>
+			<h1>Get Your Hands Dirty: <small><?php echo TITLE; ?></small></h1>
 			<hr>
 			
 			<h2>Final Example</h2>
@@ -52,17 +52,17 @@
 				
 				<?php
 				
-					if ($yearsOnEarth > 20) {
+					if ($yearsOnEarth == 20) {
 						
-						echo "<p>Congratulations for being on Earth for more than 20 years!</p>";
+						echo "<p>Congratulations for being on Earth for 20 years!</p>";
 						
-					} elseif ($yearsOnEarth == 100) {
+					} elseif ($yearsOnEarth < 20) {
 						
-						echo "<p>A century on Earth. What an accomplishment!</p>";
+						echo "<p>Not quite 20 yet, young grasshopper.</p>";
 						
 					} else {
 						
-						echo "<p>You must be under the age of 20 years, young grasshopper.</p>";
+						echo "<p>You must be more than 20 years old.</p>";
 						
 					}
 				
@@ -93,7 +93,7 @@
 			
 			<div class="navs cf">
 				<a href="/12_Elseif" class="button prev">Previous Lecture</a>
-				<a href="/14_Comparisonerators" class="button next">Next Lecture</a>
+				<a href="/14_ComparisonOperators" class="button next">Next Lecture</a>
 			</div><!-- end navs -->
 			
 			<hr>

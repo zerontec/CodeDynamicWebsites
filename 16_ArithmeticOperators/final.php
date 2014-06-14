@@ -21,7 +21,7 @@
 				<img src="/assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Lesson <? echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
+			<h1>Tutorial <?php echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
 			<hr>
 			
 			<h2>Final Example</h2>
@@ -69,9 +69,9 @@
 				<?php
 					$a = 7;
 					$b = 19;
-					$c = ($b % $a);
+					$c = ($a % $b);
 					
-					echo "$b % $a is equal to $c";
+					echo "$a % $b is equal to $c";
 				?>
 				
 			</div><!-- end sandbox -->

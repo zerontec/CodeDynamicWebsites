@@ -5,7 +5,7 @@
 	
 	// Custom Variables
 	$myName	= "Brad Hussey";
-	$lessonNum	= 23;
+	$lessonNum	= 24;
 
 ?>
 
@@ -21,7 +21,7 @@
 				<img src="/assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Tutorial <? echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
+			<h1>Tutorial <?php echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
 			<hr>
 			
 			<h2>Final Example</h2>
@@ -29,32 +29,22 @@
 			
 			<div class="sandbox">
 				
-				<h3>Using <code>sort()</code></h3>
 				<?php
-					// Custom array
-					$dinner = array("Meat", "Potatoes", "Green Beans", "Gravy");
 					
-					// Add the array as a parameter to sort() function
-					sort($dinner);
+					function hangTen() {
+				         
+				        echo "Surf's up! Grab your board!";
+				         
+				    }
 					
-					// Print the sorted array
-					foreach ($dinner as $ingredient) {
-					    echo "$ingredient <br>";
+					$surfIsUp = true;
+					
+					if ($surfIsUp) {
+						hangTen();
+					} else {
+						echo "Bummer brah!";
 					}
-				?>
-				
-				<h3>Using <code>rsort()</code></h3>
-				<?php
-					// Custom array
-					$dinner = array("Meat", "Potatoes", "Green Beans", "Gravy");
-					
-					// Add the array as a parameter to sort() function
-					rsort($dinner);
-					
-					// Print the sorted array
-					foreach ($dinner as $ingredient) {
-					    echo "$ingredient <br>";
-					}
+				     
 				?>
 				
 			</div><!-- end sandbox -->
