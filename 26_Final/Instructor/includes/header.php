@@ -8,11 +8,7 @@
 
 <head>
 	<title><?php echo TITLE; ?></title>
-	<link href="/assets/styles.css" rel="stylesheet">
-	<script type="text/javascript" src="/assets/syntaxhighlighter/scripts/shCore.js"></script>
-	<script type="text/javascript" src="/assets/syntaxhighlighter/scripts/shBrushPhp.js"></script>
-	<link type="text/css" rel="stylesheet" href="/assets/syntaxhighlighter/styles/shCoreDefault.css"/>
-	<script type="text/javascript">SyntaxHighlighter.all();</script>
+	<link href="../../assets/styles.css" rel="stylesheet">
 </head>
 
 <body id="final-example">

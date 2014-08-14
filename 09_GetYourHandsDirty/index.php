@@ -10,33 +10,33 @@
 	$age_group = array("child", "teenager", "adult");
 	
 	$handlebar = array(
-					name	=> "Handlebar",
-					colour	=> "black"
+					"name"		=> "Handlebar",
+					"colour"	=> "black"
 				 );
 	
 	$fu_manchu = array(
-					name	=> "Fu Manchu",
-					colour	=> "brown"
+					"name"		=> "Fu Manchu",
+					"colour"	=> "brown"
 				);
 				
 	$salvador_dali = array(
-						name	=> "Salvador Dali",
-						colour	=> "blonde"
+						"name"		=> "Salvador Dali",
+						"colour"	=> "blonde"
 					);			
 	
 	$gentlemen = array (
 
 					array (
-						first_name		=> "Carter",
-						country			=> "Canada"
+						"first_name"		=> "Carter",
+						"country"			=> "Canada"
 					),
 					array (
-						first_name		=> "Rodrigo",
-						country			=> "Uruguay"
+						"first_name"		=> "Rodrigo",
+						"country"			=> "Uruguay"
 					),
 					array (
-						first_name		=> "Giovanni",
-						country			=> "Italy"
+						"first_name"		=> "Giovanni",
+						"country"			=> "Italy"
 					)
 
 			  );
@@ -46,16 +46,16 @@
 <html>
 	<head>
 		<title>Get Your Hands Dirty: <?php echo TITLE; ?></title>
-		<link href="/assets/styles.css" rel="stylesheet">
-		<script type="text/javascript" src="/assets/syntaxhighlighter/scripts/shCore.js"></script>
-		<script type="text/javascript" src="/assets/syntaxhighlighter/scripts/shBrushPhp.js"></script>
-		<link type="text/css" rel="stylesheet" href="/assets/syntaxhighlighter/styles/shCoreDefault.css"/>
+		<link href="../assets/styles.css" rel="stylesheet">
+		<script type="text/javascript" src="../assets/syntaxhighlighter/scripts/shCore.js"></script>
+		<script type="text/javascript" src="../assets/syntaxhighlighter/scripts/shBrushPhp.js"></script>
+		<link type="text/css" rel="stylesheet" href="../assets/syntaxhighlighter/styles/shCoreDefault.css"/>
 		<script type="text/javascript">SyntaxHighlighter.all();</script>
 	</head>
 	<body>
 		<div class="wrapper">
 			<a href="/" title="Back to directory" id="logo">
-				<img src="/assets/img/logo.png" alt="PHP">
+				<img src="../assets/img/logo.png" alt="PHP">
 			</a>
 			
 			<h1>Get Your Hands Dirty: <small><?php echo TITLE; ?></small></h1>

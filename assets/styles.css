@@ -42,6 +42,10 @@ h2,h3,h4 {
 	font-size: 30px;
 }
 
+h4.error {
+	color: #faa722;
+}
+
 h5,h6 {
 	font-size: 20px;
 }
@@ -363,6 +367,14 @@ input.button.next {
 
 #final-example .member img {
 	max-width: 100%;
+}
+
+#final-example .closed {
+	color: #d13916;
+}
+
+#final-example .open {
+	color: #67b512;
 }
 
 #menu-items ul {

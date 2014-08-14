@@ -7,25 +7,25 @@
 
 					array (
 					
-						name			=> "Handlebar",
-						creep_factor	=> "High",
-						avg_growth_days	=> 14
+						"name"				=> "Handlebar",
+						"creep_factor"		=> "High",
+						"avg_growth_days"	=> 14
 					
 					),
 					
 					array (
 					
-						name			=> "Salvador Dali",
-						creep_factor	=> "Extreme",
-						avg_growth_days	=> 62
+						"name"				=> "Salvador Dali",
+						"creep_factor"		=> "Extreme",
+						"avg_growth_days"	=> 62
 					
 					),
 					
 					array (
 					
-						name			=> "Fu Manchu",
-						creep_factor	=> "Very High",
-						avg_growth_days	=> 58
+						"name"				=> "Fu Manchu",
+						"creep_factor"		=> "Very High",
+						"avg_growth_days"	=> 58
 					
 					)
 
@@ -36,16 +36,16 @@
 <html>
 	<head>
 		<title>PHP <?php echo TITLE; ?></title>
-		<link href="/assets/styles.css" rel="stylesheet">
-		<script type="text/javascript" src="/assets/syntaxhighlighter/scripts/shCore.js"></script>
-		<script type="text/javascript" src="/assets/syntaxhighlighter/scripts/shBrushPhp.js"></script>
-		<link type="text/css" rel="stylesheet" href="/assets/syntaxhighlighter/styles/shCoreDefault.css"/>
+		<link href="../assets/styles.css" rel="stylesheet">
+		<script type="text/javascript" src="../assets/syntaxhighlighter/scripts/shCore.js"></script>
+		<script type="text/javascript" src="../assets/syntaxhighlighter/scripts/shBrushPhp.js"></script>
+		<link type="text/css" rel="stylesheet" href="../assets/syntaxhighlighter/styles/shCoreDefault.css"/>
 		<script type="text/javascript">SyntaxHighlighter.all();</script>
 	</head>
 	<body>
 		<div class="wrapper">
 			<a href="/" title="Back to directory" id="logo">
-				<img src="/assets/img/logo.png" alt="PHP">
+				<img src="../assets/img/logo.png" alt="PHP">
 			</a>
 			
 			<h1>Tutorial <?php echo $lesson_num; ?>: <small><?php echo TITLE; ?></small></h1>
@@ -61,25 +61,25 @@ $moustaches = array (
 
 					array (
 					
-						name			=> "Handlebar",
-						creep_factor	=> "High",
-						avg_growth_days	=> 14
+						"name"				=> "Handlebar",
+						"creep_factor"		=> "High",
+						"avg_growth_days"	=> 14
 					
 					),
 					
 					array (
 					
-						name			=> "Salvador Dali",
-						creep_factor	=> "Extreme",
-						avg_growth_days	=> 62
+						"name"				=> "Salvador Dali",
+						"creep_factor"		=> "Extreme",
+						"avg_growth_days"	=> 62
 					
 					),
 					
 					array (
 					
-						name			=> "Fu Manchu",
-						creep_factor	=> "Very High",
-						avg_growth_days	=> 58
+						"name"				=> "Fu Manchu",
+						"creep_factor"		=> "Very High",
+						"avg_growth_days"	=> 58
 					
 					)
 

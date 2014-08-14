@@ -12,25 +12,25 @@
 
 					array (
 					
-						name			=> "Handlebar",
-						creep_factor	=> "High",
-						avg_growth_days	=> 14
+						"name"				=> "Handlebar",
+						"creep_factor"		=> "High",
+						"avg_growth_days"	=> 14
 					
 					),
 					
 					array (
 					
-						name			=> "Salvador Dali",
-						creep_factor	=> "Extreme",
-						avg_growth_days	=> 62
+						"name"				=> "Salvador Dali",
+						"creep_factor"		=> "Extreme",
+						"avg_growth_days"	=> 62
 					
 					),
 					
 					array (
 					
-						name			=> "Fu Manchu",
-						creep_factor	=> "Very High",
-						avg_growth_days	=> 58
+						"name"				=> "Fu Manchu",
+						"creep_factor"		=> "Very High",
+						"avg_growth_days"	=> 58
 					
 					)
 
@@ -41,12 +41,12 @@
 <html>
 	<head>
 		<title>PHP <?php echo TITLE; ?></title>
-		<link href="/assets/styles.css" rel="stylesheet">
+		<link href="../assets/styles.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="wrapper">
 			<a href="/" title="Back to directory" id="logo">
-				<img src="/assets/img/logo.png" alt="PHP">
+				<img src="../assets/img/logo.png" alt="PHP">
 			</a>
 			
 			<h1>Tutorial <? echo $lesson_num; ?>: <small><?php echo TITLE; ?></small></h1>

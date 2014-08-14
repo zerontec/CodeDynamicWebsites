@@ -11,12 +11,12 @@
 <html>
 	<head>
 		<title>PHP <!-- TITLE --></title>
-		<link href="/assets/styles.css" rel="stylesheet">
+		<link href="../assets/styles.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="wrapper">
 			<a href="/" title="Back to directory" id="logo">
-				<img src="/assets/img/logo.png" alt="PHP">
+				<img src="../assets/img/logo.png" alt="PHP">
 			</a>
 			
 			<h1>Get Your Hands Dirty: <small><!-- TITLE --></small></h1>

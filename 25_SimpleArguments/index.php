@@ -8,16 +8,16 @@
 <html>
 	<head>
 		<title>PHP <?php echo TITLE; ?></title>
-		<link href="/assets/styles.css" rel="stylesheet">
-		<script type="text/javascript" src="/assets/syntaxhighlighter/scripts/shCore.js"></script>
-		<script type="text/javascript" src="/assets/syntaxhighlighter/scripts/shBrushPhp.js"></script>
-		<link type="text/css" rel="stylesheet" href="/assets/syntaxhighlighter/styles/shCoreDefault.css"/>
+		<link href="../assets/styles.css" rel="stylesheet">
+		<script type="text/javascript" src="../assets/syntaxhighlighter/scripts/shCore.js"></script>
+		<script type="text/javascript" src="../assets/syntaxhighlighter/scripts/shBrushPhp.js"></script>
+		<link type="text/css" rel="stylesheet" href="../assets/syntaxhighlighter/styles/shCoreDefault.css"/>
 		<script type="text/javascript">SyntaxHighlighter.all();</script>
 	</head>
 	<body>
 		<div class="wrapper">
 			<a href="/" title="Back to directory" id="logo">
-				<img src="/assets/img/logo.png" alt="PHP">
+				<img src="../assets/img/logo.png" alt="PHP">
 			</a>
 			
 			<h1>Tutorial <?php echo $lessonNum; ?>: <small><?php echo TITLE; ?></small></h1>
@@ -106,8 +106,8 @@
 			<a href="final.php" class="button">Check out the final example</a>
 			
 			<div class="navs cf">
-				<a href="/23_Functions" class="button prev">Previous Lecture</a>
-				<a href="/25_SimpleArguments" class="button next">Next Lecture</a>
+				<a href="/24_CustomFuncions" class="button prev">Previous Lecture</a>
+				<a href="/26_Final" class="button next">Next Lecture</a>
 			</div><!-- end navs -->
 			
 			<hr>

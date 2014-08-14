@@ -1,12 +1,13 @@
 ====================================
 Code Dynamic Websites with PHP
-Author: Brad Hussey
-Date: March 2014
+Author:			Brad Hussey
+Last Update:	August 14, 2014
 
-Sites: www.bradhussey.ca
-	   www.codecollege.ca
-	   www.udemy.com/u/bradhussey
-	   www.youtube.com/hussey17
+Sites:	www.bradhussey.ca
+	  	www.codecollege.ca
+	  	www.udemy.com/u/bradhussey
+	  	www.youtube.com/hussey17
+	  	www.facebook.com/bradhussey
 ====================================
 
 =================
