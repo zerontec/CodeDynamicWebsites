@@ -57,7 +57,7 @@ if (expression) {
 	
 	if ($native_language == &quot;French&quot;) {
 		
-		echo &quot;Bonjour! Vouz parlez Fran&ccedil;ais.&quot;;
+		echo &quot;Bonjour! Vous parlez Fran&ccedil;ais.&quot;;
 		
 	} else if ($native_language == &quot;Spanish&quot;) {
 		
@@ -83,7 +83,7 @@ if (expression) {
 	if ($native_language == &quot;French&quot;) {
 		
 		// Echo some french!
-		echo &quot;Bonjour! Vouz parlez Fran&ccedil;ais.&quot;;
+		echo &quot;Bonjour! Vous parlez Fran&ccedil;ais.&quot;;
 		
 	// else if native language is Spanish	
 	} else if ($native_language == &quot;Spanish&quot;) {
